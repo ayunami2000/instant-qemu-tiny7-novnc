@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt install qemu
+apt install -y qemu
 qemu-img create -f raw win7.img 10G
 git clone https://github.com/Juvenal-Yescas/mediafire-dl
 cd mediafire-dl
